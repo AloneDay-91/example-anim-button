@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+}
+
+main {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+a.div-btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-title2 {
+    width: 150px;
+    margin-top: 350px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #275efe;
+    transition: all 0.4s ease;
+    border: 2px solid #275efe;
+    color: #fff;
+    place-content: center;
+}
+
+a.div-btn:hover {
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all 0.4s ease-in-out;
+}
+
+.loader {
+    pointer-events: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top: 3px solid #fff;
+    animation: an1 1s linear infinite;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    display: flex;
+    transition: all 0.4s ease;
+    justify-content: center;
+}
+
+@keyframes an1 {
+    0% {
+    transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.fa-solid.fa-check {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 3px;
+    color: #62e877;
+}
+
+.logo-vd {
+    font-size: 22px;
+    color: #fff;
+    display: flex;
+    padding-top: 15px;
+}
+
+p {
+    margin-left: 7px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto","Arial";
+    font-weight: 700;
+}
+
+p.title-dl {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto","Arial";
+    color: #fff;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #4672f1;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    margin-top: 350px;
+    margin-left: -10px;   
+}
